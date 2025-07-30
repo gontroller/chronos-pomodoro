@@ -1,12 +1,12 @@
+import { Heading } from "./components/Heading";
+
 import "./styles/global.css";
 import "./styles/theme.css";
 
 function App() {
-  console.log("App component rendered");
-
   return (
     <>
-      <h1>Hello, World!</h1>
+      <Heading>Hello World</Heading>
       <p>
         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veritatis,
         praesentium illum eos labore corrupti tempora voluptatum laborum rem
@@ -16,4 +16,5 @@ function App() {
     </>
   );
 }
-    export default App;
+
+export default App;
