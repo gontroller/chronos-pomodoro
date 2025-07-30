@@ -1,6 +1,18 @@
-.heading {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 2.4rem;
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2.4rem;
+}
+
+.logoLink {
+  background: red;
+  display: flex;
+  flex-direction: column;
+  aling-items: center;
+  justify-content: center;
+  font-weight: bold;
+  gap: 1rem;
+  font-size: 4.2rem;
+  text-decoration: none;
 }
