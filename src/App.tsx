@@ -14,11 +14,11 @@ export function App() {
       </Container>
 
       <Container>
-        <CountDown />
+        <Menu />
       </Container>
 
       <Container>
-        <Menu />
+        <CountDown />
       </Container>
     </>
   );
