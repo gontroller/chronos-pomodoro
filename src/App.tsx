@@ -4,12 +4,17 @@ import { Menu } from "./components/Menu";
 
 import "./styles/theme.css";
 import "./styles/global.css";
+import { CountDown } from "./components/CountDown";
 
 export function App() {
   return (
     <>
       <Container>
         <Logo />
+      </Container>
+
+      <Container>
+        <CountDown />
       </Container>
 
       <Container>
